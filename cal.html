@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="cal.css">
+    </script>
+</head>
+<body style="background-color:tomato; margin: 0px 20px; padding: 0px 20px">
+<header> Calculator make calculation easier</header>
+<main>
+    <form name="calci">
+<div>
+    <input id = "ans" type ="text" name = "answer"> <br> <br>
+    <input type = "button" value = "1" onclick = "calci.answer.value += '1' ">
+    <input type = "button" value = "2" onclick = "calci.answer.value += '2' ">
+    <input type = "button" value = "3" onclick = "calci.answer.value += '3' ">
+     <input type = "button" value = "+" onclick = "calci.answer.value += '+' ">
+</div>
+<div>
+    <input type = "button" value = "4" onclick = "calci.answer.value += '4' ">
+  <input type = "button" value = "5" onclick = "calci.answer.value += '5' ">
+  <input type = "button" value = "6" onclick = "calci.answer.value += '6' ">
+  <input type = "button" value = "-" onclick = "calci.answer.value += '-' ">
+</div>
+<div>
+    <input type = "button" value = "7" onclick = "calci.answer.value += '7' ">
+  <input type = "button" value = "8" onclick = "calci.answer.value += '8' ">
+  <input type = "button" value = "9" onclick = "calci.answer.value += '9' ">
+  <input type = "button" value = "*" onclick = "calci.answer.value += '*' ">
+   
+</div>
+<div>
+    <input type = "button" value = "/" onclick = "calci.answer.value += '/' ">
+    <input type = "button" value = "0" onclick = "calci.answer.value += '0' ">
+    <input type = "button" value = "." onclick = "calci.answer.value += '.' ">
+    <input type = "button" value = "=" onclick = "calci.answer.value = eval(calci.answer.value) ">
+    <br> 
+    <input type = "button" value = "Clear All" onclick = "calci.answer.value = ' ' " id= "clear" >
+    <br> 
+   
+</div></form>
+</main>
+<footer>
+    Mini calculator design  &emsp; @coat
+</footer>
+
+
+</body>
+</html>

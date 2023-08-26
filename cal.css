@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    font-size: 10px;
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+main {
+    text-align: center;
+    background-color: blueviolet;
+    border: 2px solid #044204;
+    padding: 5px;
+   font-size: 1rem;
+    margin: 10px 0 0 0;
+}
+
+footer {
+    text-align: center;
+    background-color: orange;
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid #044204;
+    margin: -1px;
+}
+
+input {
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 12px 40px;
+    margin: 6px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid rgb(48, 45, 45);
+    border-radius: 20px;
+}
+
+input:hover {
+    transform: scale(1.2);
+}
+
+#ans {
+    width: 18rem;
+    transform:scale(1)
+}
